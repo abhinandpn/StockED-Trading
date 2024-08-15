@@ -37,7 +37,7 @@ const Footer = () => {
 
       {/* Developer Section */}
       <div className="mt-16 flex flex-col items-center">
-        <h2 className="text-xl font-bold text-white">Meet Our Developer</h2>
+        <h2 className="text-xl font-bold text-white">Meet Our Company</h2>
         <div className="flex flex-wrap justify-center gap-6 mt-4">
           {socialMedia.map((info) => (
             <div key={info.id} className="flex flex-col items-center">
@@ -61,17 +61,18 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
-          {socialMedia.map((info) => (
+          {/* {socialMedia.map((info) => ( */}
             <a
-              key={info.id}
-              href={info.url}
+              // key={info.id}
+              href="https://www.instagram.com/abhinand_pn/"
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security measure to prevent tab nabbing
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              className="h-10 cursor-pointer flex justify-center items-center mt-2 backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <img src={info.img} alt="icons" width={20} height={20} />
+              {/* <img src={info.img} alt="icons" width={20} height={20} /> */}
+               Connect Developer
             </a>
-          ))}
+          {/* ))} */}
         </div>
       </div>
     </footer>

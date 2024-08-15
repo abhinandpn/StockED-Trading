@@ -224,27 +224,27 @@ export const socialMedia = [
   },
 ];
 
-export const developers = [
-  {
-    id: 1,
-    name: "abhinandpn",
-    img: "/dev1.svg",
-    socialMedia: "https://github.com/abhinandpn", // Updated URL
-    url: "", // If not used, it can be omitted
-  },
-  {
-    id: 2,
-    name: "abhinandpn",
-    img: "/dev2.svg",
-    socialMedia: "https://x.com/abhinand_p_n", // Updated URL
-  },
-  {
-    id: 3,
-    name: "abhinandpn",
-    img: "/dev3.svg",
-    socialMedia: "https://www.linkedin.com/in/abhinandpn/", // Updated URL
-  },
-];
+// export const developers = [
+//   {
+//     id: 1,
+//     name: "abhinandpn",
+//     img: "/dev1.svg",
+//     socialMedia: "https://github.com/abhinandpn", // Updated URL
+//     url: "", // If not used, it can be omitted
+//   },
+//   {
+//     id: 2,
+//     name: "abhinandpn",
+//     img: "/dev2.svg",
+//     socialMedia: "https://x.com/abhinand_p_n", // Updated URL
+//   },
+//   {
+//     id: 3,
+//     name: "abhinandpn",
+//     img: "/dev3.svg",
+//     socialMedia: "https://www.linkedin.com/in/abhinandpn/", // Updated URL
+//   },
+// ];
 
 
 
