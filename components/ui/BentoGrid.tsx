@@ -67,7 +67,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "+91 9061340294";
+    const text = "+91 9037713791";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };

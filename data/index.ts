@@ -75,152 +75,177 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Mentors with 5 years plus expertise in stock marketing ",
+    des: "Learn from seasoned professionals with over 5 years of experience in stock marketing. Our mentors provide invaluable insights, advanced strategies, and practical knowledge to help you navigate the complexities of the market and achieve your investment goals",
+    img: "",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "6 month community membership",
+    des: "Join our vibrant community for six months and gain exclusive access to networking opportunities, expert-led discussions, and valuable resources. Connect with like-minded individuals, share experiences, and enhance your knowledge with ongoing support and guidance.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+  // {
+  //   id: 3,
+  //   title: "AI Image SaaS - Canva Application",
+  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+  //   img: "/p3.svg",
+  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+  //   link: "/ui.aiimg.com",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Animated Apple Iphone 3D Website",
+  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  //   link: "/ui.apple.com",
+  // },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "one of the best decisions i ever made is joining this community.In my trading journey stocked have improved my trading skills, confidence and a good returns that i have made because of this community boosts my confidence to do more.this all happened because of you guys",
+    name: "Amal Siva",
+    title: "Stock-ED Student",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I'm thrilled to share that I've completed my first month as part of this incredible trading community.and get High positively impact on my trading. Thank you for making me who i am @sudhin @Yadhu Dinesh and Thank you for creating such a enriching environment. I look forward to continuing this journey with our fam",
+    name: "Jerin Mathew",
+    title: "Stock-ED Student",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I started Trading with Stocked community during March. Since then it has been a good experience with the community and I started to wait for the right setup to form and SL is mandatory for my trade setup now. Emotional trading is minimal now which I need to improve more.",
+    name: "Amal",
+    title: "Stock-ED Student",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Hi, I’m Rajeesh. My interest in trading began in 2020, but I initially lacked direction. After realizing the need for proper guidance, I joined a leading trading institute and connected with mentors who taught me valuable strategies. Thanks to their support and StockEd Trading, I've now developed a successful trading approach.",
+    name: "Rajeesh R Pillai",
+    title: "Stock-ED Student",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Hi everyone, I’m Jithin. I entered trading in 2022 with high hopes but faced significant losses and almost quit. Then, Sudhin sir encouraged me to keep going. With his guidance, I returned to trading, focusing on swing trades, and began seeing positive results. Now, I’m confident I’m on the right path.",
+    name: "Jithin JR",
+    title: "Stock-ED Student",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    // name: "cloudinary",
+    // img: "/cloud.svg",
+    // nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "Golang",
-    img: "/go.svg",
-    nameImg: "/golangName.svg",
+    // name: "Golang",
+    // img: "/go.svg",
+    // nameImg: "/golangName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    // name: "HOSTINGER",
+    // img: "/host.svg",
+    // nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    // name: "stream",
+    // img: "/s.svg",
+    // nameImg: "/streamName.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    // name: "docker.",
+    // img: "/dock.svg",
+    // nameImg: "/dockerName.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Backend Devlopment Intern",
-    desc: "Assisted in the development of a web-based platform using Golang, enhancing interactivity.",
+    title: "Mentor's Trades",
+    desc: "By observing mentor's trades,beginners gain valuable insights and learn more about trading.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.png",
   },
   {
     id: 2,
-    title: "Web App Dev",
-    desc: "Backend Designed and developed Web app for both iOS & Android platforms using Golang.",
+    title: "Traders community",
+    desc: "Trade alongside a community of individuals who shares similar goals and intrests",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp2.png",
   },
   {
     id: 3,
-    title: "Freelance WebApp Dev Project",
-    desc: "Led the dev of a Web app for a client, from initial concept to deployment on app stores.",
+    title: "Online regular sessions",
+    desc: "Trade online with real-time updates and swift execution. Manage your portfolio easily from anywhere with our intuitive platform.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp3.png",
   },
   {
     id: 4,
-    title: "Backend Developer",
-    desc: "Developed and maintained user-facing features using modern Backend technologies.",
+    title: "Learning through assignment",
+    desc: "Regular task for the students to provide them with practical knowedge about trading",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp4.png",
   },
 ];
 
+// data.js or similar
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: "https://github.com/abhinandpn",
+    url: "https://github.com/abhinandpn", // Updated URL
+    name:"",
   },
   {
     id: 2,
     img: "/twit.svg",
-    url: "https://x.com/abhinand_p_n",
+    url: "https://x.com/abhinand_p_n", // Updated URL
   },
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/abhinandpn/",
+    url: "https://www.linkedin.com/in/abhinandpn/", // Updated URL
   },
 ];
+
+export const developers = [
+  {
+    id: 1,
+    name: "abhinandpn",
+    img: "/dev1.svg",
+    socialMedia: "https://github.com/abhinandpn", // Updated URL
+    url: "", // If not used, it can be omitted
+  },
+  {
+    id: 2,
+    name: "abhinandpn",
+    img: "/dev2.svg",
+    socialMedia: "https://x.com/abhinand_p_n", // Updated URL
+  },
+  {
+    id: 3,
+    name: "abhinandpn",
+    img: "/dev3.svg",
+    socialMedia: "https://www.linkedin.com/in/abhinandpn/", // Updated URL
+  },
+];
+
 
 
 // 
