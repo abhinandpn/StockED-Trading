@@ -209,18 +209,18 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: "https://github.com/abhinandpn", // Updated URL
+    url: "https://www.instagram.com/stock_ed_trading/", // Updated URL
     name:"",
   },
   {
     id: 2,
     img: "/twit.svg",
-    url: "https://x.com/abhinand_p_n", // Updated URL
+    url: "https://www.instagram.com/stock_ed_trading/", // Updated URL
   },
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/abhinandpn/", // Updated URL
+    url: "https://www.instagram.com/stock_ed_trading/", // Updated URL
   },
 ];
 
