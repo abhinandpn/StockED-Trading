@@ -61,19 +61,27 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
-          {/* {socialMedia.map((info) => ( */}
-            <a
-              // key={info.id}
-              href="https://www.instagram.com/abhinand_pn/"
-              target="_blank" // Opens the link in a new tab
-              rel="noopener noreferrer" // Security measure to prevent tab nabbing
-              className="h-10 cursor-pointer flex justify-center items-center mt-2 backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-            >
-              {/* <img src={info.img} alt="icons" width={20} height={20} /> */}
-               Connect Developer
-            </a>
-          {/* ))} */}
-        </div>
+  <a
+    href="https://www.instagram.com/abhinand_pn/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="h-10 cursor-pointer flex justify-center items-center mt-2 backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+  >
+    {/* Connect Developer */}
+  </a>
+
+  <a
+    href="https://www.instagram.com/abhinand_pn/"
+    target="_blank"
+  >
+    <MagicButton
+      title="Connect Our Developer"
+      icon={<></>}  // Use an empty fragment if you don't want to display an icon
+      position="right"
+    />
+  </a>
+</div>
+
       </div>
     </footer>
   );
