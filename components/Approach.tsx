@@ -9,7 +9,7 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card
-          title="YADHU DINEESH"
+          title="YADHU DINESH"
           imageUrl="YADHUDINEESH.jpeg"
           socialLinks={[
             {

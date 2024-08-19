@@ -66,7 +66,7 @@ const Hero = () => {
             in your trading journey.
           </p>
 
-          <a href="https://github.com/abhinandpn/" target="_blank">
+          <a href="https://forms.gle/K7hgJoGAZtP7LbZY6" target="_blank">
             <MagicButton
               title="Join with US"
               icon={<FaLocationArrow />}
