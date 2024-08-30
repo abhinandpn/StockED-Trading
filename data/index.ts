@@ -1,11 +1,15 @@
 import { url } from "inspector";
+import logo from "/Stock-ED_Logo.png"; // Adjust the path to your logo
 
 export const navItems = [
   { name: "AboutUs", link: "#about" },
   // { name: "MyProjects", link: "#projects" },
+  
   { name: "Testimonials", link: "#testimonials" },
   { name: "ContactUs", link: "#contact" },
+  
 ];
+
 
 export const gridItems = [
   {
