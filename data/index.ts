@@ -220,7 +220,7 @@ export const socialMedia = [
   // },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/insta.svg",
     url: "https://www.instagram.com/stock_ed_trading/", // Updated URL
     name:"",
   },
