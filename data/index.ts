@@ -2,7 +2,7 @@ import { url } from "inspector";
 
 export const navItems = [
   { name: "AboutUs", link: "#about" },
-  { name: "MyProjects", link: "#projects" },
+  // { name: "MyProjects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "ContactUs", link: "#contact" },
 ];
@@ -206,16 +206,17 @@ export const workExperience = [
 
 // data.js or similar
 export const socialMedia = [
-  {
-    id: 1,
-    img: "/git.svg",
-    url: "https://www.instagram.com/stock_ed_trading/", // Updated URL
-    name:"",
-  },
+  // {
+  //   id: 1,
+  //   img: "/git.svg",
+  //   url: "https://www.instagram.com/stock_ed_trading/", // Updated URL
+  //   name:"",
+  // },
   {
     id: 2,
     img: "/twit.svg",
     url: "https://www.instagram.com/stock_ed_trading/", // Updated URL
+    name:"",
   },
   {
     id: 3,

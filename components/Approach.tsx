@@ -13,7 +13,7 @@ const Approach = () => {
           imageUrl="YADHUDINEESH.jpeg"
           socialLinks={[
             {
-              platform: "Instagram",
+              platform: "Connect Me",
               url: "https://www.instagram.com/yadhu_dinesh",
             },
             // { platform: "Twitter", url: "https://twitter.com/leader1" },
@@ -30,7 +30,7 @@ const Approach = () => {
           imageUrl="SUDHIN.jpeg"
           socialLinks={[
             {
-              platform: "Instagram",
+              platform: "Connect Me",
               url: "https://www.instagram.com/sudhin_12",
             },
             // { platform: "Twitter", url: "https://twitter.com/leader2" },
@@ -52,7 +52,7 @@ const Approach = () => {
           imageUrl="VISHNUTT.jpeg"
           socialLinks={[
             {
-              platform: "Instagram",
+              platform: "Connect Me",
               url: "https://www.instagram.com/vishnu_tt_",
             },
             // { platform: "Twitter", url: "https://twitter.com/leader3" },

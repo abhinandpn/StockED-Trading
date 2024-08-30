@@ -37,7 +37,7 @@ const Footer = () => {
 
       {/* Developer Section */}
       <div className="mt-16 flex flex-col items-center">
-        <h2 className="text-xl font-bold text-white">Meet Our Company</h2>
+        {/* <h2 className="text-xl font-bold text-white">Meet Our Company</h2> */}
         <div className="flex flex-wrap justify-center gap-6 mt-4">
           {socialMedia.map((info) => (
             <div key={info.id} className="flex flex-col items-center">
@@ -74,11 +74,11 @@ const Footer = () => {
     href="https://www.instagram.com/abhinand_pn/"
     target="_blank"
   >
-    <MagicButton
+    {/* <MagicButton
       title="Connect Our Developer"
       icon={<></>}  // Use an empty fragment if you don't want to display an icon
       position="right"
-    />
+    /> */}
   </a>
 </div>
 
