@@ -218,11 +218,11 @@ export const socialMedia = [
     url: "https://www.instagram.com/stock_ed_trading/", // Updated URL
     name:"",
   },
-  // {
-  //   id: 3,
-  //   img: "/link.svg",
-  //   url: "https://www.instagram.com/stock_ed_trading/", // Updated URL
-  // },
+  {
+    id: 3,
+    img: "/link.svg",
+    url: "https://www.instagram.com/stock_ed_trading/", // Updated URL
+  },
 ];
 
 // export const developers = [
