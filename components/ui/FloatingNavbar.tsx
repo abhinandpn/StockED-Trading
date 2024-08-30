@@ -198,7 +198,7 @@ export const FloatingNav = ({
           )}
         >
           <img
-            className="h-[55px] w-[60px] "
+            className="h-[55px] "
             src="/Stock-ED_Logo.png"
             alt="Logo"
           />
