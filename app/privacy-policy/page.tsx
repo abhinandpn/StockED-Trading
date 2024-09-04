@@ -1,4 +1,3 @@
-// app/privacy-policy/page.tsx
 import React from "react";
 
 const PrivacyPolicy = () => {
@@ -9,10 +8,11 @@ const PrivacyPolicy = () => {
         <strong>Introduction</strong>
       </p>
       <p>
-        This Privacy Policy outlines how StockEd Trading Company ("We," "Us," or
-        "Our") collects, uses, and discloses your personal information when you
-        use our services, and the choices you have associated with that data. We
-        are committed to protecting your privacy and ensuring your trust.
+        This Privacy Policy outlines how StockEd Trading Company
+        (&quot;We,&quot; &quot;Us,&quot; or &quot;Our&quot;) collects, uses, and
+        discloses your personal information when you use our services, and the
+        choices you have associated with that data. We are committed to
+        protecting your privacy and ensuring your trust.
       </p>
       <p>
         <strong>Information We Collect</strong>
@@ -40,9 +40,9 @@ const PrivacyPolicy = () => {
         <br />
         Location information (with your permission)
         <br />
-        Information from your device's phonebook (with your permission)
+        Information from your device&apos;s phonebook (with your permission)
         <br />
-        Pictures and other information from your device's camera and photo
+        Pictures and other information from your device&apos;s camera and photo
         library (with your permission)
       </p>
       <p>
@@ -111,7 +111,7 @@ const PrivacyPolicy = () => {
         You can request to delete your personal data.
       </p>
       <p>
-        <strong>Children's Privacy</strong>
+        <strong>Children&apos;s Privacy</strong>
       </p>
       <p>
         Our services are not directed to children under 13. We do not knowingly
