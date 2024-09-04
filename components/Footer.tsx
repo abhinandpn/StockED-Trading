@@ -1,31 +1,34 @@
+import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
-      {/* background grid */}
-      <div className="w-full absolute left-0 -bottom-72 min-h-96">
+    <footer className="w-full pt-20 pb-10 relative" id="contact">
+      {/* Background Grid */}
+      <div className="absolute inset-0 -bottom-72 min-h-96">
         <img
           src="/footer-grid.svg"
-          alt="grid"
-          className="w-full h-full opacity-50 "
+          alt="Decorative grid background"
+          className="w-full h-full opacity-50"
         />
       </div>
 
-      <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Let&apos;s elevate your digital presence with 
+      <div className="flex flex-col items-center relative">
+        <h1 className="heading lg:max-w-[45vw] text-center">
+          Let&apos;s elevate your digital presence with
           <span className="text-purple"> Stock-ED</span> Trading Company?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Contact us today at StockEd Trading Company &apos;sto explore how we
-          can help you achieve your goals
+          Contact us today at StockEd Trading Company to explore how we can help
+          you achieve your goals.
         </p>
         <a
           href="https://wa.me/919037713791?text=hai%20I%20want%20to%20work%20with%20you"
           target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Contact us via WhatsApp"
         >
           <MagicButton
             title="Let's get in touch"
@@ -37,7 +40,6 @@ const Footer = () => {
 
       {/* Developer Section */}
       <div className="mt-16 flex flex-col items-center">
-        {/* <h2 className="text-xl font-bold text-white">Meet Our Company</h2> */}
         <div className="flex flex-wrap justify-center gap-6 mt-4">
           {socialMedia.map((info) => (
             <div key={info.id} className="flex flex-col items-center">
@@ -46,9 +48,10 @@ const Footer = () => {
                 href={info.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`Follow us on ${info.name}`}
                 className="w-10 h-10 cursor-pointer flex justify-center items-center mt-2 backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
               >
-                <img src={info.img} alt="icons" width={20} height={20} />
+                <img src={info.img} alt={info.name} width={20} height={20} />
               </a>
             </div>
           ))}
@@ -61,27 +64,22 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
-  <a
-    href="https://www.instagram.com/abhinand_pn/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="h-10 cursor-pointer flex justify-center items-center mt-2 backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-  >
-    {/* Connect Developer */}
-  </a>
-
-  <a
-    href="https://www.instagram.com/abhinand_pn/"
-    target="_blank"
-  >
-    {/* <MagicButton
-      title="Connect Our Developer"
-      icon={<></>}  // Use an empty fragment if you don't want to display an icon
-      position="right"
-    /> */}
-  </a>
-</div>
-
+          <Link href="https://stocked-trading.in//privacy-policy">
+            <span className="text-sm text-white hover:underline">
+              Privacy Policy
+            </span>
+          </Link>
+          <Link href="https://stocked-trading.in//terms-and-conditions">
+            <span className="text-sm text-white hover:underline">
+              Terms and Conditions
+            </span>
+          </Link>
+          <Link href="https://stocked-trading.in//return-and-refund">
+            <span className="text-sm text-white hover:underline">
+              Return and Refund
+            </span>
+          </Link>
+        </div>
       </div>
     </footer>
   );
