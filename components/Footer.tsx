@@ -63,19 +63,43 @@ const Footer = () => {
           Copyright © 2024 STOCK-ED TRADING
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
-          <Link href="https://stocked-trading.in/privacy-policy">
-            <span className="text-sm text-white hover:underline">
+        {/* <div className="flex items-center md:gap-3 gap-6">
+          <Link href="/privacy-policy">
+            <span className="text-sm text-white hover:underline cursor-pointer">
               Privacy Policy
             </span>
           </Link>
-          <Link href="https://stocked-trading.in/terms-and-conditions">
-            <span className="text-sm text-white hover:underline">
+          <Link href="/terms-and-conditions">
+            <span className="text-sm text-white hover:underline cursor-pointer">
               Terms and Conditions
             </span>
           </Link>
-          <Link href="https://stocked-trading.in/return-and-refund">
-            <span className="text-sm text-white hover:underline">
+          <Link href="/return-and-refund">
+            <span className="text-sm text-white hover:underline cursor-pointer">
+              Return and Refund
+            </span>
+          </Link>
+        </div> */}
+
+        <div className="flex flex-col items-center relative">
+          <Link href="/privacy-policy">
+            <span className="text-sm text-white hover:underline cursor-pointer">
+              Privacy-policy
+            </span>
+          </Link>
+        </div>
+
+        <div className="flex flex-col items-center relative">
+          <Link href="/terms-and-conditions">
+            <span className="text-sm text-white hover:underline cursor-pointer">
+              Terms-and-conditions
+            </span>
+          </Link>
+        </div>
+
+        <div className="flex flex-col items-center relative">
+          <Link href="/return-and-refund">
+            <span className="text-sm text-white hover:underline cursor-pointer">
               Return and Refund
             </span>
           </Link>
