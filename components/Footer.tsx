@@ -64,17 +64,17 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
-          <Link href="https://stocked-trading.in//privacy-policy">
+          <Link href="https://stocked-trading.in/privacy-policy">
             <span className="text-sm text-white hover:underline">
               Privacy Policy
             </span>
           </Link>
-          <Link href="https://stocked-trading.in//terms-and-conditions">
+          <Link href="https://stocked-trading.in/terms-and-conditions">
             <span className="text-sm text-white hover:underline">
               Terms and Conditions
             </span>
           </Link>
-          <Link href="https://stocked-trading.in//return-and-refund">
+          <Link href="https://stocked-trading.in/return-and-refund">
             <span className="text-sm text-white hover:underline">
               Return and Refund
             </span>
