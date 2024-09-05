@@ -41,7 +41,7 @@ const ReturnAndRefund = () => {
 
       <h2>3. Non-Refundable Fees</h2>
       <p>
-        <strong>Processing Fee:</strong> A processing fee of $1,000 is
+        <strong>Processing Fee:</strong> A processing fee of 5,000 is
         non-refundable regardless of the timing of your cancellation.
       </p>
       <p>
