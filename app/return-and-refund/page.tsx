@@ -15,7 +15,7 @@ const ReturnAndRefund = () => {
       <p>
         <strong>Refund Eligibility:</strong> If you cancel your registration at
         least 14 days before the course start date, you will receive a full
-        refund minus a processing fee of 1,000. If you cancel within 14 days of
+        refund minus a processing fee of 5,000. If you cancel within 14 days of
         the course start date, you will not be eligible for a refund.
       </p>
       <p>
