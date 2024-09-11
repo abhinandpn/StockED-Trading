@@ -1,24 +1,23 @@
 import React from "react";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow } from "react-icons/fa";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
 import MagicButton from "./MagicButton";
 import Link from "next/link";
 
-
 const TermsAndConditions: React.FC = () => {
   return (
-    <div className="terms-conditions-container p-6 bg-black shadow-lg rounded-lg my-10 mx-24 mt-32">
-      <div className="m-12">
-        <h1 className="text-5xl font-bold mb-6">
+    <div className="p-6 bg-black shadow-lg rounded-lg mx-auto mt-10 max-w-full sm:max-w-2xl md:max-w-4xl lg:max-w-7xl">
+      <div className="m-4 md:m-8 lg:m-12">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-center">
           <TextGenerateEffect
             words="Terms and Conditions for StockED"
-            className="text-[40px] md:text-5xl"
+            className="text-2xl md:text-3xl lg:text-4xl"
           />
         </h1>
       </div>
-      <div className="m-12">
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
+      <div className="m-4 md:m-8 lg:m-12">
+        <section className="mb-6 md:mb-8 lg:mb-10">
+          <h2 className="text-xl md:text-2xl font-semibold mb-4">
             1. Modification of the Terms
           </h2>
           <p className="text-gray-300 mb-4">
@@ -31,8 +30,8 @@ const TermsAndConditions: React.FC = () => {
           </p>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
+        <section className="mb-6 md:mb-8 lg:mb-10">
+          <h2 className="text-xl md:text-2xl font-semibold mb-4">
             2. Registration and Eligibility
           </h2>
           <p className="text-gray-300 mb-4">
@@ -55,8 +54,8 @@ const TermsAndConditions: React.FC = () => {
           </p>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
+        <section className="mb-6 md:mb-8 lg:mb-10">
+          <h2 className="text-xl md:text-2xl font-semibold mb-4">
             3. Termination and Cancellation
           </h2>
           <p className="text-gray-300 mb-4">
@@ -77,8 +76,8 @@ const TermsAndConditions: React.FC = () => {
           </p>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">4. Content</h2>
+        <section className="mb-6 md:mb-8 lg:mb-10">
+          <h2 className="text-xl md:text-2xl font-semibold mb-4">4. Content</h2>
           <p className="text-gray-300 mb-4">
             The syllabus is taught in phases. Completion of one phase is
             required to start the next.
@@ -100,8 +99,8 @@ const TermsAndConditions: React.FC = () => {
           </p>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
+        <section className="mb-6 md:mb-8 lg:mb-10">
+          <h2 className="text-xl md:text-2xl font-semibold mb-4">
             5. Payment and Refund Policy
           </h2>
           <p className="text-gray-300 mb-4">
@@ -123,8 +122,8 @@ const TermsAndConditions: React.FC = () => {
           </p>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
+        <section className="mb-6 md:mb-8 lg:mb-10">
+          <h2 className="text-xl md:text-2xl font-semibold mb-4">
             6. Acceptance of Terms
           </h2>
           <p className="text-gray-300 mb-4">
@@ -135,8 +134,10 @@ const TermsAndConditions: React.FC = () => {
           </p>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">7. Use of the Service</h2>
+        <section className="mb-6 md:mb-8 lg:mb-10">
+          <h2 className="text-xl md:text-2xl font-semibold mb-4">
+            7. Use of the Service
+          </h2>
           <p className="text-gray-300 mb-4">
             Users must be at least 13 years old to utilize the service. Any
             unauthorized or prohibited use of the Service is forbidden under
@@ -144,8 +145,8 @@ const TermsAndConditions: React.FC = () => {
           </p>
         </section>
 
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">8. Abuse</h2>
+        <section className="mb-6 md:mb-8 lg:mb-10">
+          <h2 className="text-xl md:text-2xl font-semibold mb-4">8. Abuse</h2>
           <p className="text-gray-300 mb-4">
             StockED Trading Company prohibits objectionable content and abusive
             behavior. You agree not to use the Service to transmit any content
@@ -156,13 +157,12 @@ const TermsAndConditions: React.FC = () => {
         </section>
 
         {/* Footer */}
-
-        <div className="flex flex-col items-center relative">
-          <h1 className="heading lg:max-w-[45vw] text-center">
+        <div className="flex flex-col items-center text-center mb-12">
+          <h1 className="text-lg md:text-xl lg:text-2xl font-semibold mb-4">
             Let&apos;s elevate your digital presence with
             <span className="text-purple"> Stock-ED</span> Trading Company?
           </h1>
-          <p className="text-white-200 md:mt-10 my-5 text-center">
+          <p className="text-white-200 md:mt-4 mb-4">
             Contact us today at StockEd Trading Company to explore how we can
             help you achieve your goals.
           </p>
@@ -179,26 +179,27 @@ const TermsAndConditions: React.FC = () => {
             />
           </a>
         </div>
-        {/* next footer final */}
-        <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-          <p className="md:text-base text-sm md:font-normal font-light">
+
+        {/* Footer Final */}
+        <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+          <p className="text-sm md:text-base font-light mb-4 md:mb-0">
             Copyright © 2024 STOCK-ED TRADING
           </p>
-          <div className="flex items-center gap-6">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-6">
             <Link href="/privacy-policy">
-              <span className="text-sm text-white hover:underline cursor-pointer">
+              <a className="text-sm text-white hover:underline">
                 Privacy Policy
-              </span>
+              </a>
             </Link>
             <Link href="/terms-and-conditions">
-              <span className="text-sm text-white hover:underline cursor-pointer">
+              <a className="text-sm text-white hover:underline">
                 Terms and Conditions
-              </span>
+              </a>
             </Link>
             <Link href="/return-and-refund">
-              <span className="text-sm text-white hover:underline cursor-pointer">
+              <a className="text-sm text-white hover:underline">
                 Return and Refund
-              </span>
+              </a>
             </Link>
           </div>
         </div>
