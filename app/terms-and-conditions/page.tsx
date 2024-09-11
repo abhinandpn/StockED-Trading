@@ -172,6 +172,35 @@ const TermsAndConditions: React.FC = () => {
             rel="noopener noreferrer"
             aria-label="Contact us via WhatsApp"
           >
+            <p className="text-gray-300 mb-4">
+              <p>If you have any questions please contact us by email at</p>
+
+              <a
+                href="mailto:stock.ed.trading@gmail.com"
+                className="text-sm text-white hover:underline cursor-pointer font-extrabold"
+              >
+                stock.ed.trading@gmail.com
+              </a>
+            </p>
+            <p className="text-gray-300 mb-4">You can also reach us at:</p>
+            <p className="text-gray-300 mb-4">
+              65/1428-E, E1, E3, E4, 4TH FLOOR, MW1 CALICUT,
+              <br />
+              KANNANKANDY MANSION, BILATHIKULAM,
+              <br />
+              Nadakavu, Kozhikode, Kozhikode, Kerala,
+              <br />
+              India, 673011
+            </p>
+            <p className="text-gray-300 mb-4">
+              Phone:{" "}
+              <a
+                href="tel:+919037713791"
+                className="text-sm text-white hover:underline cursor-pointer font-extrabold"
+              >
+                +91 90377 13791
+              </a>
+            </p>
             <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}
