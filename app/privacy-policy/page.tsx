@@ -77,8 +77,11 @@ const PrivacyAndPolicy: React.FC = () => {
             Contact Us
           </h2>
           <p className="text-gray-300 mb-4">
-            If you have any questions about this Privacy Policy, please contact
-            us by email at
+            <p>
+              If you have any questions about this Privacy Policy, please
+              contact us by email at
+            </p>
+
             <a
               href="mailto:stock.ed.trading@gmail.com"
               className="text-sm text-white hover:underline cursor-pointer font-extrabold"
