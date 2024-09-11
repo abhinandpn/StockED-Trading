@@ -155,7 +155,7 @@ const ReturnAndRefund: React.FC = () => {
             </Link>
           </div>
         </div>
-        {/* footer end */}
+        {/* footer */}
       </div>
     </div>
   );
