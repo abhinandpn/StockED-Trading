@@ -156,7 +156,6 @@ const TermsAndConditions: React.FC = () => {
         </section>
 
         {/* Footer */}
-
         <div className="flex flex-col items-center relative">
           <h1 className="heading lg:max-w-[45vw] text-center">
             Let&apos;s elevate your digital presence with
@@ -167,7 +166,7 @@ const TermsAndConditions: React.FC = () => {
             help you achieve your goals.
           </p>
           <a
-            href="https://wa.me/919037713791?text=hai%20I%20want%20to%20work%20with%20you"
+            href="https://wa.me/919037713791?text=hi%20I%20want%20to%20work%20with%20you"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Contact us via WhatsApp"
@@ -179,47 +178,22 @@ const TermsAndConditions: React.FC = () => {
             />
           </a>
         </div>
-        {/* next footer final */}
+
         <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
           <p className="md:text-base text-sm md:font-normal font-light">
             Copyright © 2024 STOCK-ED TRADING
           </p>
-
-          {/* <div className="flex items-center md:gap-3 gap-6">
-          <Link href="/privacy-policy">
-            <span className="text-sm text-white hover:underline cursor-pointer">
-              Privacy Policy
-            </span>
-          </Link>
-          <Link href="/terms-and-conditions">
-            <span className="text-sm text-white hover:underline cursor-pointer">
-              Terms and Conditions
-            </span>
-          </Link>
-          <Link href="/return-and-refund">
-            <span className="text-sm text-white hover:underline cursor-pointer">
-              Return and Refund
-            </span>
-          </Link>
-        </div> */}
-
-          <div className="flex flex-col items-center relative">
+          <div className="flex items-center gap-6">
             <Link href="/privacy-policy">
               <span className="text-sm text-white hover:underline cursor-pointer">
-                Privacy-policy
+                Privacy Policy
               </span>
             </Link>
-          </div>
-
-          <div className="flex flex-col items-center relative">
             <Link href="/terms-and-conditions">
               <span className="text-sm text-white hover:underline cursor-pointer">
-                Terms-and-conditions
+                Terms and Conditions
               </span>
             </Link>
-          </div>
-
-          <div className="flex flex-col items-center relative">
             <Link href="/return-and-refund">
               <span className="text-sm text-white hover:underline cursor-pointer">
                 Return and Refund
