@@ -25,10 +25,10 @@ const ReturnAndRefund: React.FC = () => {
             your registration by contacting us at least 14 days before the
             course start date. To initiate a cancellation, email us at{" "}
             <a
-              href="mailto:stockedtrading@gmail.com"
+              href="mailto:stock.ed.trading@gmail.com"
               className="text-sm text-white hover:underline font-extrabold"
             >
-              stockedtrading@gmail.com
+              stock.ed.trading@gmail.com
             </a>
             .
           </p>
@@ -78,10 +78,10 @@ const ReturnAndRefund: React.FC = () => {
           <p className="text-white-200 md:mt-4 mb-4">
             Email us at{" "}
             <a
-              href="mailto:stockedtrading@gmail.com"
+              href="mailto:stock.ed.trading@gmail.com"
               className="text-sm text-white hover:underline font-extrabold"
             >
-              stockedtrading@gmail.com
+              stock.ed.trading@gmail.com
             </a>
             .
           </p>
