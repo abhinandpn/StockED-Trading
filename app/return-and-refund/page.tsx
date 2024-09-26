@@ -69,6 +69,40 @@ const ReturnAndRefund: React.FC = () => {
             cancellations initiated by the user.
           </p>
         </section>
+        
+        <section className="mb-6 md:mb-8 lg:mb-10">
+        {/* <h2 className="text-xl md:text-2xl font-semibold mb-4 ">
+            Shipping Policy for StockED Trading
+          </h2> */}
+          <TextGenerateEffect
+            words="Shipping Policy for StockED-Trading"
+            className="text-2xl md:text-3xl lg:text-4xl"
+          />
+          <h4 className="text-xl md:text-2xl font-semibold mb-4 underline">
+           1. Shipping Area & Time
+          </h4>
+          <p className="text-gray-300 mb-4">
+            We ship within India only. Orders are processed and delivered within 2-3 business days.
+          </p>
+          <h4 className="text-xl md:text-2xl font-semibold mb-4 underline">
+           2. Fees & Tracking
+          </h4>
+          <p className="text-gray-300 mb-4">
+            Shipping is ₹200, with free shipping on orders over ₹5,000. A tracking number will be provided once your order is shipped.
+          </p>
+          <h4 className="text-xl md:text-2xl font-semibold mb-4 underline">
+           3. Address Changes & Undelivered Packages
+          </h4>
+          <p className="text-gray-300 mb-4">
+            Ensure your shipping address is accurate. Undelivered packages due to incorrect addresses will require additional shipping fees for redelivery.
+          </p>
+          <h4 className="text-xl md:text-2xl font-semibold mb-4 underline">
+           4. Lost or Damaged Items
+          </h4>
+          <p className="text-gray-300 mb-4">
+            StockED is not responsible for lost or damaged items. Please contact the shipping carrier directly for claims.
+          </p>
+        </section>
 
         <div className="flex flex-col items-center text-center mb-12">
           <h1 className="text-lg md:text-xl lg:text-2xl font-semibold mb-4">
