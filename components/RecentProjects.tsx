@@ -61,7 +61,7 @@ const RecentProjects = () => {
             className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2"
           >
             <h1 className="text-start text-xl md:text-2xl font-bold text-white">
-              Explore Our Course
+              Explore Our Membership
             </h1>
           </Link>
         </Button>
