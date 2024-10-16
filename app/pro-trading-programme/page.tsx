@@ -72,7 +72,9 @@ const ProTradingProgramme: React.FC = () => {
         {/* Limited Time Offer */}
         <div className="bg-purple-600 p-6 text-white rounded-md text-center mb-6">
           <h3 className="text-xl font-bold">Limited Time Offer!</h3>
-          <p>Get 10% off your enrollment. Offer valid for the first 100 sign-ups!</p>
+          <p>
+            Get 10% off your enrollment. Offer valid for the first 100 sign-ups!
+          </p>
         </div>
 
         {/* Buy Now Button */}
@@ -89,7 +91,7 @@ const ProTradingProgramme: React.FC = () => {
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
             <Link
-              href="/buy-now" // Update this link to the Buy Now page
+              href="/buy-now"
               className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2"
             >
               <h1 className="text-start text-xl md:text-2xl font-bold text-white">
@@ -105,7 +107,9 @@ const ProTradingProgramme: React.FC = () => {
             Join the Pro Traders Community with{" "}
             <span className="text-purple">Stock-ED Trading</span>
           </h1>
-          <p className="text-gray-400 md:mt-4 mb-4">Start Your Journey Today!</p>
+          <p className="text-gray-400 md:mt-4 mb-4">
+            Start Your Journey Today!
+          </p>
 
           <MagicButton
             title="Let's Get in Touch"
@@ -120,14 +124,23 @@ const ProTradingProgramme: React.FC = () => {
             Copyright © 2024 STOCK-ED TRADING
           </p>
           <div className="flex flex-col md:flex-row gap-4 md:gap-6">
-            <Link href="/privacy-policy">
-              <a className="text-sm text-white hover:underline">Privacy Policy</a>
+            <Link
+              href="/privacy-policy"
+              className="text-sm text-white hover:underline"
+            >
+              Privacy Policy
             </Link>
-            <Link href="/terms-and-conditions">
-              <a className="text-sm text-white hover:underline">Terms and Conditions</a>
+            <Link
+              href="/terms-and-conditions"
+              className="text-sm text-white hover:underline"
+            >
+              Terms and Conditions
             </Link>
-            <Link href="/return-and-refund">
-              <a className="text-sm text-white hover:underline">Return and Refund</a>
+            <Link
+              href="/return-and-refund"
+              className="text-sm text-white hover:underline"
+            >
+              Return and Refund
             </Link>
           </div>
         </div>
