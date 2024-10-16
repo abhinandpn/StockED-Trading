@@ -139,7 +139,7 @@ const Page: React.FC = () => {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ amount: 1000 }), // Example: Rs 1000
+          body: JSON.stringify({ amount: 23600 }), // Example: Rs 1000
         });
 
         const paymentData = await paymentResponse.json();
