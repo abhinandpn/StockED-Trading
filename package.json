@@ -35,6 +35,7 @@
     "react-icons": "^5.0.1",
     "react-lottie": "^1.2.4",
     "semver": "^7.6.3",
+    "sharp": "^0.33.5",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
     "tar": "^7.4.3",

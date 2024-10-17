@@ -1,6 +1,10 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { useRouter } from "next/navigation"; // Updated import
+import React, { useState } from "react";
+import { useRouter } from "next/navigation"; 
+import { FaLocationArrow } from "react-icons/fa";
+import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect"; // Ensure this is a valid import
+import MagicButton from "./MagicButton";
+import Link from "next/link";
 
 const Page: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -16,10 +20,9 @@ const Page: React.FC = () => {
   });
 
   const [successMessage, setSuccessMessage] = useState("");
-  const [loading, setLoading] = useState(false); // Track loading state
-  const router = useRouter(); // useRouter for redirection
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
-  // Load Razorpay script dynamically
   const loadRazorpayScript = () => {
     return new Promise((resolve) => {
       const script = document.createElement("script");
@@ -34,7 +37,6 @@ const Page: React.FC = () => {
     let valid = true;
     let newErrors = { name: "", phone: "", email: "" };
 
-    // Name validation
     if (!formData.name.trim()) {
       newErrors.name = "Name is required";
       valid = false;
@@ -43,7 +45,6 @@ const Page: React.FC = () => {
       valid = false;
     }
 
-    // Phone validation
     if (!formData.phone.trim()) {
       newErrors.phone = "Phone number is required";
       valid = false;
@@ -52,7 +53,6 @@ const Page: React.FC = () => {
       valid = false;
     }
 
-    // Email validation
     if (!formData.email.trim()) {
       newErrors.email = "Email is required";
       valid = false;
@@ -82,18 +82,18 @@ const Page: React.FC = () => {
 
     const options = {
       key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID,
-      amount: 1000 * 100,
+      amount: 1000 * 100, // Amount in paise
       currency: "INR",
-      name: "STOCK ED TRADING INSTITUTE", // Company or Merchant name
+      name: "STOCK ED TRADING INSTITUTE",
       description: "Test Payment",
-      image: "/logo.png", // Optional company logo
+      image: "/logo.png",
       order_id: orderId,
       handler: function (response: any) {
         router.push("/");
         console.log("Payment details:", response);
       },
       prefill: {
-        name: formData.name, // Customer's name here
+        name: formData.name,
         email: formData.email,
         contact: formData.phone,
       },
@@ -111,10 +111,9 @@ const Page: React.FC = () => {
 
     if (!validateForm()) return;
 
-    setLoading(true); // Start loading state
+    setLoading(true);
 
     try {
-      // Submit form data to Google Sheets API
       const formResponse = await fetch("/api/submit", {
         method: "POST",
         headers: {
@@ -124,16 +123,14 @@ const Page: React.FC = () => {
       });
 
       if (formResponse.ok) {
-        setSuccessMessage("Form submitted successfully , Please wait");
+        setSuccessMessage("Form submitted successfully, Please wait");
         setFormData({ name: "", phone: "", email: "" });
         setErrors({ name: "", phone: "", email: "" });
 
-        // Automatically hide success message after 3 seconds
         setTimeout(() => {
           setSuccessMessage("");
         }, 3000);
 
-        // Create Razorpay order on the backend
         const paymentResponse = await fetch("/api/create-order", {
           method: "POST",
           headers: {
@@ -144,7 +141,6 @@ const Page: React.FC = () => {
 
         const paymentData = await paymentResponse.json();
         if (paymentData.orderId) {
-          // Open Razorpay payment UI after successful form submission
           handleRazorpayPayment(paymentData.orderId);
         }
       } else {
@@ -153,19 +149,18 @@ const Page: React.FC = () => {
     } catch (error) {
       console.error("Error:", error);
     } finally {
-      setLoading(false); // Stop loading state when done
+      setLoading(false);
     }
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <div className="w-full max-w-md border border-gray-400 p-8 rounded-lg shadow-lg">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-black">
+      <div className="w-full max-w-md border border-gray-400 p-8 rounded-lg shadow-lg bg-black">
         <h2 className="text-2xl font-bold mb-6 text-center text-white">
-          Contact Form
+          STOCK-ED TRADING CONTACT FORM
         </h2>
         {successMessage && <p className="text-green-500">{successMessage}</p>}
         <form onSubmit={handleSubmit} className="space-y-4">
-          {/* Form Fields */}
           <div>
             <label htmlFor="name" className="block mb-2 text-white">
               Name:
@@ -223,15 +218,62 @@ const Page: React.FC = () => {
           <button
             type="submit"
             className="bg-blue-500 text-white p-2 w-full rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-500"
-            disabled={loading} // Disable button when loading
+            disabled={loading}
           >
             {loading ? (
-              <span className="loader">Processing...</span> // Display spinner
+              <span className="loader">Processing...</span>
             ) : (
               "Buy Now"
             )}
           </button>
         </form>
+      </div>
+
+      {/* Footer */}
+      <div className="flex flex-col items-center relative mt-10 text-white">
+        <h1 className="heading text-lg sm:text-2xl lg:text-3xl text-center lg:max-w-[45vw]">
+          Let&apos;s elevate your digital presence with
+          <span className="text-purple"> Stock-ED</span> Trading Company
+        </h1>
+        <p className="text-white-200 md:mt-10 my-5 text-center">
+          Contact us today at StockEd Trading Company to explore how we can
+          help you achieve your goals.
+        </p>
+        <a
+          href="https://wa.me/919037713791?text=hi%20I%20want%20to%20work%20with%20you"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Contact us via WhatsApp"
+        >
+          <MagicButton
+            title="Let's get in touch"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </a>
+      </div>
+
+      <div className="flex mt-16 flex-col md:flex-row justify-between items-center w-full max-w-md">
+        <p className="text-sm md:text-base font-light">
+          Copyright © 2024 STOCK-ED TRADING
+        </p>
+        <div className="flex items-center gap-4 mt-2 md:mt-0">
+          <Link href="/privacy-policy">
+            <span className="text-sm text-white hover:underline cursor-pointer">
+              Privacy Policy
+            </span>
+          </Link>
+          <Link href="/terms-and-conditions">
+            <span className="text-sm text-white hover:underline cursor-pointer">
+              Terms and Conditions
+            </span>
+          </Link>
+          <Link href="/return-and-refund">
+            <span className="text-sm text-white hover:underline cursor-pointer">
+              Return and Refund
+            </span>
+          </Link>
+        </div>
       </div>
     </div>
   );
