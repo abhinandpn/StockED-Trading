@@ -2,14 +2,9 @@ import React from "react";
 import { FaLocationArrow } from "react-icons/fa";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
 import MagicButton from "./MagicButton";
-
 import Link from "next/link";
-
-// Import the new image
 import Image from "next/image";
-import proTradingImage from "@/public/pro-trading-programme.png"; // Update with the correct path if necessary
-
-// Import Button component
+import proTradingImage from "@/public/pro-trading-programme.png";
 import { Button } from "./ui/MovingBorders";
 
 const ProTradingProgramme: React.FC = () => {
@@ -75,17 +70,27 @@ const ProTradingProgramme: React.FC = () => {
           <p>
             Get 10% off your enrollment. Offer valid for the first 100 sign-ups!
           </p>
+          <p className="mt-2">
+            After the payment, please take a screenshot. Our executives will contact you soon. If you have any queries about payment, please contact us through our social media.
+          </p>
+          <div className="mt-4">
+            <p>
+              Instagram: <a href="https://www.instagram.com/stock_ed_trading/"  target="_blank"className="text-blue-400 hover:underline">stock_ed_trading</a>
+            </p>
+            <p>
+              WhatsApp: <a href="https://wa.me/9037713791?text=hai%20i%20have%20an%20enquire"  target="_blank" className="text-blue-400 hover:underline">Click here</a>
+            </p>
+          </div>
         </div>
 
         {/* Buy Now Button */}
         <div className="flex justify-center mt-8">
           <Button
-            duration={10000} // Example duration
+            duration={10000}
             borderRadius="1.75rem"
             style={{
               background: "rgb(4,7,29)",
-              backgroundColor:
-                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+              backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
               borderRadius: `calc(1.75rem * 0.96)`,
             }}
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
