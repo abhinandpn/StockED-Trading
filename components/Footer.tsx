@@ -25,7 +25,7 @@ const Footer = () => {
           you achieve your goals.
         </p>
         <a
-          href="https://wa.me/919037713791?text=hai%20I%20want%20to%20work%20with%20you"
+          href="https://wa.me/9037713791?text=hai%20i%20have%20an%20enquire"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Contact us via WhatsApp"
