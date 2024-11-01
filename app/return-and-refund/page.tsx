@@ -65,7 +65,7 @@ const ReturnAndRefund: React.FC = () => {
             3. Non-Refundable Fees
           </h2>
           <p className="text-gray-300 mb-4">
-            A non-refundable processing fee of ₹5,000 applies to all==========
+            A non-refundable processing fee of ₹5,000 applies to all
             cancellations initiated by the user.
           </p>
         </section>
